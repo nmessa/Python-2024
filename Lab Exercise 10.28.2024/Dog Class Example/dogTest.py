@@ -1,0 +1,26 @@
+from dog import *
+
+fido = JackRussellTerrier("Fido", 4, "Brown")
+buddy = GoldenRetriever("Buddy", 9, "Yellow-Brown")
+mary = Dachshund("Mary", 3, "Red-Brown")
+james = Bulldog("James", 5, "Tan")
+
+
+print(fido.speak("Hello I'm Fido"))
+print(fido)
+print(fido.speak())
+print()
+print()
+print(buddy.speak("Hello I'm Buddy"))
+print(buddy)
+print(buddy.speak())
+print()
+print()
+print(mary.speak("Hello I'm Mary"))
+print(mary)
+print(mary.speak())
+print()
+print()
+print(james.speak("Hello I'm James"))
+print(james)
+print(james.speak())
